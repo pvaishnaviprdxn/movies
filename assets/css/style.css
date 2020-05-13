@@ -177,7 +177,19 @@ h2 {
     width: 600px;
     margin: 40px auto;
 }
-.closeModal {}
+.closeModal {
+    text-indent: -9999px;
+    position: relative;
+    display: inline-block;
+}
+.fa-times::before {
+    text-indent: 0;
+    position: absolute;
+    top: 0;
+    font-family: "Fontawesome";
+    font-size: 17px;
+    color: white
+}
 .login-form {}
 .form-input {}
 .form-input {}
