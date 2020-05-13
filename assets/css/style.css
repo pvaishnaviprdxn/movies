@@ -121,7 +121,6 @@ h1 a img {
     width: 80px;
     height: 80px;
 }
-
 /*login page header stop */
 /*=================================
   Header styling ends here
@@ -130,15 +129,55 @@ h1 a img {
 /*=================================
   main styling starts here
 =================================*/
-/*login page section start */
+/*login page-form section start */
+.tagline-login { text-align: center; }
 
+h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: rgb(248, 248, 248);
+    font-family: serif;
+    font-size: 36px;
+    
+}
 
+.subline {
+    display: block;
+    text-align: center;
+    font-family: monospace;
+    color: rgb(248, 248, 248);
+    font-size: 24px;
+}
 
+.experience { font-size: 28px; }
 
+.login-btn { 
+    padding: 8px 30px;
+    margin-top: 25px;
+    border: 2px solid;
+    border-radius: 5px;
+    color:rgb(46, 45, 45);
+    background-color: rgb(248, 248, 248);
+    font-size: 14px;
+    font-weight: bold;
+}
 
+.login-btn:hover { 
+    background-color:rgb(167, 166, 166,.1);
+    color: rgb(248, 248, 248); ;
+    transition: .8s ease-in-out;
+    -webkit-transition: .8s ease-in-out;
+    -ms-transition: .8s ease-in-out;
+    -moz-transition: .8s ease-in-out;
+    -o-transition: .8s ease-in-out;
+}
 
+.modal {
+    display: none;
+}
 
-/*login page section stop */
+/*login page-form section stop */
 /*=================================
   main styling ends here
 =================================*/
