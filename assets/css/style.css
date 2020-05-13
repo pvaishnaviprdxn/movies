@@ -174,8 +174,14 @@ h2 {
 }
 
 .modal {
-    display: none;
+    width: 600px;
+    margin: 40px auto;
 }
+.closeModal {}
+.login-form {}
+.form-input {}
+.form-input {}
+.submit-form {}
 
 /*login page-form section stop */
 /*=================================
