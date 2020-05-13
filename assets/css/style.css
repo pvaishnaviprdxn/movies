@@ -100,14 +100,27 @@ li {
 /*for wrapper*/
 .wrapper {
     max-width: 1360px;
-    width: 86%; 
+    width: 94%; 
     margin: 0 auto;
 }
 /*=================================
   Header styling starts here
 =================================*/
 /*login page header start*/
+body { 
+    background-image: url(../images/login-bck.jpg);
+    background-size: cover;
+}
 
+header {
+    padding-top: 15px ;
+    padding-bottom: 20px;
+}
+
+h1 a img { 
+    width: 80px;
+    height: 80px;
+}
 
 /*login page header stop */
 /*=================================
@@ -117,6 +130,7 @@ li {
 /*=================================
   main styling starts here
 =================================*/
+/*login page section start */
 
 
 
@@ -124,7 +138,7 @@ li {
 
 
 
-
+/*login page section stop */
 /*=================================
   main styling ends here
 =================================*/
