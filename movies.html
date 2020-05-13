@@ -4,34 +4,25 @@
 <html lang="en"> 
 
     <head>
-   
         <meta charset="utf-8">
-
         <title>Movies | Timepass</title>
-    
         <!-- 120 word description for SEO purposes goes here. Note: Usage of lang tag. -->
         <!-- <meta name="description" lang="en" content=""> -->
-    
         <!-- Keywords to help with SEO go here. Note: Usage of lang tag.  -->
         <!-- <meta name="keywords" lang="en" content=""> -->
-    
         <!-- View-port Basics: http://mzl.la/VYREaP -->
         <!-- This meta tag is used for mobile device to display the page without any zooming,
          so how much the device is able to fit on the screen is what's shown initially. 
          Remove comments from this tag, when you want to apply media queries to the website. -->
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"> 
-    
         <!-- To adhear no-cache for Chrome -->
         <!--   <meta http-equiv="cache-control" content="no-store, no-cache, must-revalidate" />
         <meta http-equiv="Pragma" content="no-store, no-cache" />
         <meta http-equiv="Expires" content="0" /> -->
-
         <!-- Place favicon.ico in the root directory: mathiasbynens.be/notes/touch-icons -->
         <link rel="shortcut icon" href="favicon.ico" />
-        
         <!--font-awesome link for icons-->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
         <!-- Default style-sheet is for 'media' type screen (color computer display).  -->
         <link rel="stylesheet" media="screen" href="assets/css/style.css" >
         <!--slick slider stylesheet-->
@@ -41,7 +32,6 @@
         <!--[if lt IE 9]>  
         <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>  
         <![endif]-->
-
     </head>
 
     <body>
@@ -57,8 +47,11 @@
                             <img src="assets/images/flogo.jpg" alt="Movies">
                         </a>
                     </h1>
+                    <!--logo structure end here-->
+
+                    <!--nav structure start here-->
                     <nav>
-                        <a href="#FIXME" class="fa fa-bars">bars</a>
+                        <span href="#FIXME" class="fa fa-bars" title="Menu">bars</span>
                         <ul class="menu">
                             <li>
                                 <a href="movies.html" title="Movies">Movies</a>
@@ -77,84 +70,143 @@
                             <a href="#FIXME" title="Logout">Logout</a> 
                         </div>
                     </nav>
-                    <!--logo structure end here-->
+                    <!--nav structure end here-->
+
                 </div>
                 <!--header wrapper end here-->
             </header>
             <!--header section end-->
+
             <!--main section start-->
             <main>
+                <!--Top rated movies section start-->
                 <section class="section1">
+
+                    <!--wrapper structure start-->
                     <div class="wrapper">
+
+                        <!--content start-->
                         <h2>Top Rated Movies</h2>
                         <div class="slider1">
-                            <ul class="topR" id="topMovies">
+                            <ul class="top-r" id="top-movies">
                             </ul>
-                            <div class="viewMore">
+                            <div class="view-more">
                                 <button class="view" id="mb1">ViewMore</button>
                             </div>
                         </div>
+                        <!--content end-->
+
                     </div>
+                    <!--wrapper structure end-->
+
                 </section>
+                <!--Top rated movies section end-->
+                <!--most popular movies section start-->
                 <section class="section2">
+
+                    <!--wrapper structure start-->
                     <div class="wrapper">
+
+                        <!--content start-->
                         <h2>Most Popular Movies</h2>
                         <div class="slider2">
-                            <ul class="mostP" id="popularMovies">
+                            <ul class="most-p" id="popular-movies">
                             </ul>
-                            <div class="viewMore">
+                            <div class="view-more">
                                 <button class="view" id="mb2">ViewMore</button>
                             </div>
                         </div>
+                        <!--content end-->
+
                     </div>
+                    <!--wrapper structure end-->
+
                 </section>
+                <!--most popular movies section end-->
+                <!--Now playing movies section start-->
                 <section class="section3">
+
+                    <!--wrapper structure start-->
                     <div class="wrapper">
+
+                        <!--content start-->
                         <h2>Now Playing Movies</h2>
                         <div class="slider3">
-                            <ul class="nowPlaying" id="playing">
+                            <ul class="now-playing" id="playing">
                             </ul>
                             <div class="viewMore">
                                 <button class="view" id="mb3">ViewMore</button>
                             </div>
                         </div>
+                        <!--content end-->
+
                     </div>
+                    <!--wrapper structure end-->
+
                 </section>
+                <!--Now playing movies section end-->
+
+                <!--up coming movies section start-->
                 <section class="section4">
+                    <!--wrapper structure start-->
                     <div class="wrapper">
+                        
+                        <!--content start-->
                         <h2>Upcoming Movies</h2>
                         <div class="slider4">
                             <ul class="upcoming" id="newcoming">
                             </ul>
-                            <div class="viewMore">
+                            <div class="view-more">
                                 <button class="view" id="mb4">ViewMore</button>
                             </div>
                         </div>
+                        <!--content end-->
+
                     </div>
+                    <!--wrapper structure end-->
+
                 </section>
+                <!--up coming movies section start-->
+
+                <!--Trending news start-->
                 <section class="section5">
+
+                    <!--wrapper structure start-->
                     <div class="wrapper">
+
+                        <!--content start-->
                         <h2>Trending News</h2>
                         <div class="slider5">
-                            <ul class="news" id="trendingNews">
+                            <ul class="news" id="trending-news">
                             </ul>
-                            <div class="viewMore">
+                            <div class="view-more">
                                 <button class="view" id="mb4">ViewMore</button>
                             </div>
                         </div>
+                        <!--content end-->
+
                     </div>
+                    <!--wrapper structure end-->
+
                 </section>
+                <!--Trending news send-->
             </main>
             <!--main section end-->
 
             <!--footer section start-->
             <footer>    
+
+                <!--wrapper structure start-->
                 <div class="wrapper">  
+                    <!--footer logo start-->
                     <h3 class="flogo">
                         <a href="#FIXME" title="Movies">
                             <img src="assets/images/flogo.jpg" alt="Movies">
                         </a>
                     </h3>
+                    <!--footer logo end-->
+
+                    <!--social icons start-->
                     <ul class="social-icons">
                         <li>
                             <a href="#FIXME" target="_blank" title="Facebook" class="fa fa-facebook"></a>
@@ -172,6 +224,9 @@
                             <a href="#FIXME" target="_blank" title="Dribbble" class="fa fa-dribbble dribbble"></a>
                         </li>
                     </ul>
+                    <!--social icons end-->
+
+                    <!--footer nav start-->
                     <ul class="fnav">
                         <li><a href="#FIXME" title="Press Room">Press Room</a></li>
                         <li><a href="#FIXME" title="Advertising">Advertising</a></li>
@@ -179,10 +234,17 @@
                         <li><a href="#FIXME" title="Conditions of Use">Conditions of Use</a></li>
                         <li><a href="#FIXME" title="Privacy Policy">Privacy Policy</a></li>
                     </ul>
+                    <!--footer nav end-->
+
+                    <!--copyright start-->
                     <div class="copyright">
                         <span>&#169;2000-2020 Movies.com, Inc</span>
                     </div>
+                    <!--copyright end-->
+
                 </div>
+                <!--wrapper structure end-->
+
             </footer>
             <!--footer section end-->
 
