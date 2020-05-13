@@ -182,10 +182,12 @@ h2 {
 .closeModal {
     
 }
+
 .login-form {
     padding: 0 30px 30px 30px;
     color: rgb(198, 240, 10);
 }
+
 .login-form input[type="text"],
 .login-form input[type="password"] {
     width: 90%;
@@ -201,7 +203,6 @@ h2 {
 .login-form input[type="text"]:focus,
 .login-form input[type="password"]:focus { outline:transparent }
 
-
 .email-error,
 .pass-error {
     opacity: 0;
@@ -214,6 +215,7 @@ h2 {
 }
 
 .form-input { margin-top: 15px;}
+
 .form-input:after{
     content: "";
     width: 340px;
@@ -234,7 +236,8 @@ h2 {
     color: black;
     font-weight: bold;
 }
-.go:hover{ 
+
+.go:hover { 
     background:black;
     color: white;
     transition: .5s ease-in-out;
