@@ -112,10 +112,7 @@ li {
     background-size: cover;
 }
 
-header {
-    padding-top: 15px ;
-    padding-bottom: 20px;
-}
+h1 { display: inline-block; }
 
 h1 a img { 
     width: 80px;
@@ -124,11 +121,45 @@ h1 a img {
 /*login page styling stop */
 
 /*movies page styling start*/
-nav {}
-.menu {}
-.menu ul li {}
-.search {}
+.page-header { background-color: rgb(12, 11, 11); }
 
+nav { 
+    display: inline-block;
+    color: white;
+    padding: 0 50px
+}
+.fa.fa-bars {display: none;}
+.menu { display: inline; }
+.menu li {
+    padding: 0 5px 20px 5px;
+    margin-right: 20px;
+}
+.menu li a{ 
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.menu li a:hover{ 
+    color: rgb(186, 238, 82);
+}
+.search-bar {
+    display: inline-block;
+}
+.logout {
+    display: inline-block;
+}
+input[type="search"]{
+
+}
+.search {
+    text-indent: -9999px;
+    position: relative;
+    display: inline-block;
+}
+.search::before {
+
+}
 /*movies page styling end*/
 /*=================================
   Header styling ends here
