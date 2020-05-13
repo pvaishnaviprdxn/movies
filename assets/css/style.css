@@ -174,27 +174,80 @@ h2 {
 }
 
 .modal {
-    width: 600px;
+    width: 400px;
     margin: 40px auto;
+    background-color:rgb(255, 251, 251);
 }
-.closeModal {
-    text-indent: -9999px;
-    position: relative;
-    display: inline-block;
-}
-.fa-times::before {
-    text-indent: 0;
-    position: absolute;
-    top: 0;
-    font-family: "Fontawesome";
-    font-size: 17px;
-    color: white
-}
-.login-form {}
-.form-input {}
-.form-input {}
-.submit-form {}
 
+.closeModal {
+    
+}
+.login-form {
+    padding: 0 30px 30px 30px;
+    color: rgb(198, 240, 10);
+}
+.login-form input[type="text"],
+.login-form input[type="password"] {
+    width: 90%;
+    padding: 8px;
+    margin: 0 auto;
+    display: block;
+    background-color: transparent;
+    border: none;
+}
+
+::placeholder { color: rgb(182, 179, 179);}
+
+.login-form input[type="text"]:focus,
+.login-form input[type="password"]:focus { outline:transparent }
+
+
+.email-error,
+.pass-error {
+    opacity: 0;
+    padding-left: 18px;
+    padding-bottom: 5px;
+    display:block;
+    text-transform:capitalize;
+    font-size: 10px;
+    color: rgb(253, 15, 154);
+}
+
+.form-input { margin-top: 15px;}
+.form-input:after{
+    content: "";
+    width: 340px;
+    height: 2px;
+    background-image: linear-gradient(to right,rgb(243, 52, 52),black,rgb(243, 52, 52));
+    position: absolute;
+    display: block;
+ }
+
+.submit-form { text-align: center; }
+
+.go { 
+    padding: 10px 30px;
+    margin-top: 25px;
+    border: 1.5px solid;
+    border-radius: 4px;
+    background-color:white;
+    color: black;
+    font-weight: bold;
+}
+.go:hover{ 
+    background:black;
+    color: white;
+    transition: .5s ease-in-out;
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -ms-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+}
+
+/*js class*/
+.displayn { display: none; }
+.displayb { display: block }
+/*js class end*/
 /*login page-form section stop */
 /*=================================
   main styling ends here
