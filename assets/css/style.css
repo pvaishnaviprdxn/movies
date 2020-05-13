@@ -167,20 +167,33 @@ h2 {
     background-color:rgb(167, 166, 166,.1);
     color: rgb(248, 248, 248); ;
     transition: .8s ease-in-out;
-    -webkit-transition: .8s ease-in-out;
-    -ms-transition: .8s ease-in-out;
-    -moz-transition: .8s ease-in-out;
-    -o-transition: .8s ease-in-out;
+    -webkit-transition: .5s ease-in-out;
+    -ms-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
 }
 
 .modal {
+    display: none;
     width: 400px;
     margin: 40px auto;
+    border-radius: 4px;
     background-color:rgb(255, 251, 251);
 }
 
-.closeModal {
-    
+.close {
+    text-indent: -9999px;
+    display: inline-block;
+    position: relative;
+}
+.close::before {
+    content: '\f00d';
+    text-indent: 380px;
+    position: absolute;
+    top: 4px;
+    left: 40%;
+    font-family: "Fontawesome";
+    color: black;
 }
 
 .login-form {
@@ -249,7 +262,7 @@ h2 {
 
 /*js class*/
 .displayn { display: none; }
-.displayb { display: block }
+.displayb { display: block; }
 /*js class end*/
 /*login page-form section stop */
 /*=================================
