@@ -398,9 +398,12 @@ h2 {
     font-weight: bold;
     background: transparent;
 }
-.section2 {
-    
+
+.view:hover {
+    background-color: #0badb3;
+    color: white;
 }
+.section2 {}
 .section3 {}
 .section4 {}
 
@@ -412,14 +415,79 @@ h2 {
 /*=================================
   footer styling starts here
 =================================*/ 
+footer { 
+    background-color: rgb(12, 11, 11); 
+    text-align: center; 
+    color: rgb(248, 248, 248);
+    padding: 30px 0;
+}
 
+.flogo { display: inline-block; }
+.flogo img { width: 80px; }
+.social-icons { margin: 20px 0; }
+.social-icons li { margin-right: 20px; }
 
+.social-icons li a {
+    width: 32px;
+    height: 32px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+.facebook,
+.twitter,
+.instagram,
+.linkedin,
+.dribbble { 
+    text-indent: -9999px;
+    position: relative;
+    display: inline-block;
+}
 
+.facebook::before,
+.twitter::before,
+.instagram::before,
+.linkedin::before,
+.dribbble::before {
+    text-indent: 0;
+    position: absolute;
+    left: 30%;
+    top: 6px;
+    font-family: "Fontawesome";
+    color: rgb(248, 248, 248);
+}
 
+.facebook::before { 
+    content: '\f09a';   
+    left: 36%; 
+}
+.twitter::before { content:  '\f099' }
+.instagram::before { content: '\f16d' }
+.linkedin::before { content: '\f0e1 '; }
+.dribbble::before { content: '\f17d';}
+.facebook:hover::before { color: rgb(40, 107, 214); }
+.twitter:hover::before { color : rgb(10, 188, 233); }
+.instagram:hover::before { color: rgb(255, 100, 216); }
+.linkedin:hover::before { color: rgb(49, 168, 204); }
+.dribbble:hover::before { color: rgb(177, 38, 177); }
+.fnav { margin: 20px 0; }
 
+.fnav li a { 
+    margin: 0 18px;
+    font-weight: bold;
+    font-size: 14px;
+    padding-bottom: 2px;
+    color: #f7f7f7;
+}
 
+.fnav li a:hover { text-decoration: underline; }
 
- /*=================================
+.copyright {
+    font-size: 12px;
+    font-weight: bold;
+    font-family: monospace;
+    color: #9c9c9c;
+}
+/*=================================
   footer styling ends here
 =================================*/ 
 
