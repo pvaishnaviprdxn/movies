@@ -126,7 +126,7 @@ h1 a img {
 nav { 
     display: inline-block;
     color: white;
-    padding: 0 50px
+    padding-left: 50px;
 }
 .fa.fa-bars {display: none;}
 .menu { display: inline; }
@@ -143,29 +143,70 @@ nav {
 .menu li a:hover{ 
     color: rgb(186, 238, 82);
 }
-.search-bar {
-    display: inline-block;
-}
-.logout {
-    display: inline-block;
-}
-input[type="search"]{
 
+.search-bar {
+    width: 670px;
+    display: inline-block;
+    background-color: white;
+    border-radius: 18px;
+    display: inline-block;
+    margin: 0 20px;
 }
+
 .search {
     text-indent: -9999px;
     position: relative;
     display: inline-block;
 }
+
 .search::before {
-    content: '\f00d';
-    text-indent: 380px;
+    content: '\f002';
+    text-indent: 0;
     position: absolute;
-    top: 4px;
+    padding: 2px 5px;
+    top: 0;
     left: 40%;
     font-family: "Fontawesome";
     color: black;
 }
+
+.search-input {
+    width: 620px;
+    height: 32px;
+    padding-left: 15px;
+    border: 0;
+    border-top-left-radius: 18px;
+    border-bottom-left-radius: 18px;
+    background-color: transparent;
+}
+
+.search-input::placeholder { padding: 0 12px; }
+.search-input:focus { outline: transparent; }
+
+.logout {
+    display: inline-block;
+    margin-left: 35px;
+}
+
+.logout a {
+    padding: 6px 26px;
+    color: rgb(255, 251, 251);
+    border: 2px solid;
+    border-color: rgb(255, 251, 251);
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: 14px;
+}
+.logout a:hover {
+    background-color: rgb(248, 248, 248);
+    color: rgb(46, 45, 45);
+    transition: .6s ease-in-out;
+    -webkit-transition: .6s ease-in-out;
+    -ms-transition: .6s ease-in-out;
+    -moz-transition: .6 ease-in-out;
+    -o-transition: .6s ease-in-out;
+}
+
 /*movies page styling end*/
 /*=================================
   Header styling ends here
@@ -312,7 +353,56 @@ h2 {
 /*login page-form section stop */
 
 /*movies page styling start*/
+.section1 {}
 
+.section1 h2,
+.section2 h2,
+.section3 h2,
+.section4 h2,
+.section5 h2 {
+    text-align: left;
+    background:  linear-gradient(to right,rgb(202, 9, 9) ,rgb(161, 45, 239) ,rgb(12, 133, 170) ,rgb(184, 3, 216));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -ms-background-clip: text;
+    -moz-background-clip: text;
+    -o-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -ms-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    -o-text-fill-color: transparent;
+    font-size: 30px;
+    font-weight: bold;
+}
+.top-r { width: 100%; }
+
+.top-r li { 
+    width: 25%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.view-more {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.view { 
+    padding: 8px 22px;
+    border: 2px solid;
+    border-radius: 3px;
+    border-color: #0badb3;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    background: transparent;
+}
+.section2 {
+    
+}
+.section3 {}
+.section4 {}
 
 /*movies page styling end*/
 /*=================================
