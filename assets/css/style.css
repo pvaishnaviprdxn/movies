@@ -260,9 +260,8 @@ h2 {
     -moz-transition: .5s ease-in-out;
     -o-transition: .5s ease-in-out;
 }
-
+.login-section { display: none; }
 .modal {
-    display: none;
     width: 400px;
     margin: 40px auto;
     border-radius: 4px;
