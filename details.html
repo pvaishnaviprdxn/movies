@@ -50,7 +50,6 @@
             <!--header section start-->
             <header>
 
-                <!--header wrapper start-->
                 <div class="wrapper">
 
                     <!--logo start-->
@@ -63,30 +62,31 @@
 
                     <!--navigation starts-->
                     <nav>
-                        <a href="#FIXME" class="fa fa-bars">bars</a>
+                        <span href="#FIXME" class="hamburger" title="Menu">bars</span>
                         <ul class="menu">
                             <li>
-                                <a href="movies.html" title="Movies">Movies</a>
+                                <a href="movies.html" title="Movies" class="movienav">Movies</a>
                             </li>
                             <li>
-                                <a href="tvshows.html" title="TV Shows">TV Shows</a>
+                                <a href="tvshows.html" title="TV Shows" class="tvnav">TV Shows</a>
                             </li>
                         </ul>
-                        <div class="search">
-                            <form>
-                                <input type="search" placeholder="Search Movies, TV shows..." id="s-movies">
+                        <div class="search-bar">
+                            <form action="#FIXME">
+                                <input type="text" class="search-input" placeholder="Search Movies, TV shows..." id="s-movies">
+                                <a href="#FIXME" title="Search" aria-hidden="true" class="search"  id="search-e">search</a>
                             </form>
                             <ul class="list-group" id="result"></ul>
                         </div>
                         <div class="logout" id="logoutMain">
-                            <a href="#FIXME" title="Logout">Logout</a> 
+                            <a href="#FIXME" title="Logout" id="log-out">Logout</a> 
                         </div>
                     
                     </nav>
                     <!--navigation ends-->
                     
                 </div>
-                <!--header wrapper start-->
+                <!--header wrapper end-->
 
             </header>
             <!--header section end-->
