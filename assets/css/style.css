@@ -158,7 +158,13 @@ input[type="search"]{
     display: inline-block;
 }
 .search::before {
-
+    content: '\f00d';
+    text-indent: 380px;
+    position: absolute;
+    top: 4px;
+    left: 40%;
+    font-family: "Fontawesome";
+    color: black;
 }
 /*movies page styling end*/
 /*=================================
