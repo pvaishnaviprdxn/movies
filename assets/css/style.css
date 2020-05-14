@@ -358,6 +358,7 @@ h2 {
 /*movies page styling start*/
 section { margin: 60px 0; }
 
+/* h2 styling of movies and tvshows start here*/
 .section1 h2,
 .sec1-tv h2,
 .section2 h2,
@@ -381,6 +382,7 @@ section { margin: 60px 0; }
     font-size: 30px;
     font-weight: bold;
 }
+/* h2 styling of movies and tvshows end here*/
 .top-r { width: 100%; }
 
 .top-r li { 
