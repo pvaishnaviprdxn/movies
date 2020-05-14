@@ -5,7 +5,7 @@
 
     <head>
         <meta charset="utf-8">
-        <title>Movies | Timepass</title>
+        <title>Movies | Movies.com</title>
         <!-- 120 word description for SEO purposes goes here. Note: Usage of lang tag. -->
         <!-- <meta name="description" lang="en" content=""> -->
         <!-- Keywords to help with SEO go here. Note: Usage of lang tag.  -->
@@ -51,24 +51,24 @@
 
                     <!--nav structure start here-->
                     <nav>
-                        <span href="#FIXME" class="fa fa-bars" title="Menu">bars</span>
+                        <span href="#FIXME" class="hamburger" title="Menu">bars</span>
                         <ul class="menu">
                             <li>
-                                <a href="movies.html" title="Movies">Movies</a>
+                                <a href="movies.html" title="Movies" class="movienav active">Movies</a>
                             </li>
                             <li>
-                                <a href="tvshows.html" title="TV Shows">TV Shows</a>
+                                <a href="tvshows.html" title="TV Shows" class="tvnav">TV Shows</a>
                             </li>
                         </ul>
                         <div class="search-bar">
-                            <form>
+                            <form action="#FIXME">
                                 <input type="text" class="search-input" placeholder="Search Movies, TV shows..." id="s-movies">
                                 <a href="#FIXME" title="Search" aria-hidden="true" class="search"  id="search-e">search</a>
                             </form>
                             <ul class="list-group" id="result"></ul>
                         </div>
                         <div class="logout" id="logoutMain">
-                            <a href="#FIXME" title="Logout">Logout</a> 
+                            <a href="#FIXME" title="Logout" id="log-out">Logout</a> 
                         </div>
                     </nav>
                     <!--nav structure end here-->
@@ -92,7 +92,7 @@
                             <ul class="top-r" id="top-movies">
                             </ul>
                             <div class="view-more">
-                                <button class="view" id="mb1">ViewMore</button>
+                                <button class="view" id="mb1">View more</button>
                             </div>
                         </div>
                         <!--content end-->
@@ -114,7 +114,7 @@
                             <ul class="most-p" id="popular-movies">
                             </ul>
                             <div class="view-more">
-                                <button class="view" id="mb2">ViewMore</button>
+                                <button class="view" id="mb2">View more</button>
                             </div>
                         </div>
                         <!--content end-->
@@ -135,8 +135,8 @@
                         <div class="slider3">
                             <ul class="now-playing" id="playing">
                             </ul>
-                            <div class="viewMore">
-                                <button class="view" id="mb3">ViewMore</button>
+                            <div class="view-more">
+                                <button class="view" id="mb3">View more</button>
                             </div>
                         </div>
                         <!--content end-->
@@ -158,7 +158,7 @@
                             <ul class="upcoming" id="newcoming">
                             </ul>
                             <div class="view-more">
-                                <button class="view" id="mb4">ViewMore</button>
+                                <button class="view" id="mb4">View more</button>
                             </div>
                         </div>
                         <!--content end-->
@@ -181,7 +181,7 @@
                             <ul class="news" id="trending-news">
                             </ul>
                             <div class="view-more">
-                                <button class="view" id="mb4">ViewMore</button>
+                                <button class="view" id="mb4">View more</button>
                             </div>
                         </div>
                         <!--content end-->

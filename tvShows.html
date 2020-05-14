@@ -7,7 +7,7 @@
    
         <meta charset="utf-8">
 
-        <title>Client</title>
+        <title>TV Shows | Movies.com</title>
     
         <!-- 120 word description for SEO purposes goes here. Note: Usage of lang tag. -->
         <!-- <meta name="description" lang="en" content=""> -->
@@ -62,24 +62,24 @@
 
                     <!--navigation starts-->
                     <nav>
-                        <a href="#FIXME" class="fa fa-bars">bars</a>
+                        <span href="#FIXME" class="hamburger" title="Menu">bars</span>
                         <ul class="menu">
                             <li>
-                                <a href="movies.html" title="Movies">Movies</a>
+                                <a href="movies.html" title="Movies" class="movienav">Movies</a>
                             </li>
                             <li>
-                                <a href="tvshows.html" title="TV Shows">TV Shows</a>
+                                <a href="tvshows.html" title="TV Shows" class="tvnav active">TV Shows</a>
                             </li>
                         </ul>
                         <div class="search-bar">
-                            <form>
-                                <input type="search" placeholder="Search Movies, TV shows..." id="s-movies">
-                                <span class="search" id="search-e">search</span>
+                            <form action="#FIXME">
+                                <input type="text" class="search-input" placeholder="Search Movies, TV shows..." id="s-movies">
+                                <a href="#FIXME" title="Search" aria-hidden="true" class="search"  id="search-e">search</a>
                             </form>
                             <ul class="list-group" id="result"></ul>
                         </div>
                         <div class="logout" id="logoutMain">
-                            <a href="#FIXME" title="Logout">Logout</a> 
+                            <a href="#FIXME" title="Logout" id="log-out">Logout</a> 
                         </div>
                     
                     </nav>
@@ -103,7 +103,7 @@
                             <ul class="top-r" id="toprated-tv" >
                             </ul>
                             <div class="view-more">
-                                <button class="view" id="tv1">ViewMore</button>
+                                <button class="view" id="tv1">View more</button>
                             </div>
                         </div>
                         <!--content end-->
@@ -125,7 +125,7 @@
                             <ul class="most-p" id="most-pop-tv">
                             </ul>
                             <div class="view-more">
-                                <button class="view" id="tv2">ViewMore</button>
+                                <button class="view" id="tv2">View more</button>
                             </div>
                         </div>
                         <!--content end-->
@@ -148,7 +148,7 @@
                             <ul class="on-air" id="on-air-tv">
                             </ul>
                             <div class="view-more">
-                                <button class="view" id="tv3">ViewMore</button>
+                                <button class="view" id="tv3">View more</button>
                             </div>
                         </div>
                         <!--content end-->
@@ -171,7 +171,7 @@
                             <ul class="air-today" id="air-today-tv">
                             </ul>
                             <div class="view-more">
-                                <button class="view" id="tv4">ViewMore</button>
+                                <button class="view" id="tv4">View more</button>
                             </div>
                         </div>
                         <!--content end-->
@@ -194,7 +194,7 @@
                             <ul class="news" id="trendingNewsTv">
                             </ul>
                             <div class="view-more">
-                                <button class="view" id="tv5">ViewMore</button>
+                                <button class="view" id="tv5">View more</button>
                             </div>
                         </div>
                         <!--content end-->
@@ -223,19 +223,19 @@
                     <!--social-icons start-->
                     <ul class="social-icons">
                         <li>
-                            <a href="#FIXME" target="_blank" title="Facebook" class="fa fa-facebook"></a>
+                            <a href="#FIXME" target="_blank" aria-hidden="true" title="Facebook" class="facebook">facebook</a>
                         </li>
                         <li>
-                            <a href="#FIXME" target="_blank" title="Twitter" class="fa fa-twitter"></a>
+                            <a href="#FIXME" target="_blank" aria-hidden="true" title="Twitter" class="twitter">twitter</a>
                         </li>
                         <li>
-                            <a href="#FIXME" target="_blank" title="Instagram" class="fa fa-instagram"></a>
+                            <a href="#FIXME" target="_blank" aria-hidden="true" title="Instagram" class="instagram">instagram</a>
                         </li>
                         <li>
-                            <a href="#FIXME" target="_blank" title="Linkedin" class="fa fa-linkedin"></a>
+                            <a href="#FIXME" target="_blank" aria-hidden="true" title="Linkedin" class="linkedin">linkedin</a>
                         </li>
                         <li>
-                            <a href="#FIXME" target="_blank" title="Dribbble" class="fa fa-dribbble dribbble"></a>
+                            <a href="#FIXME" target="_blank" aria-hidden="true" title="Dribbble" class="dribbble">dribbble</a>
                         </li>
                     </ul>
                     <!--social-icons start-->
