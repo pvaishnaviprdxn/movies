@@ -455,10 +455,12 @@ section { margin: 60px 0; }
 
 .getImage img {
     height: 400px;
+    margin-bottom: 20px;
     display: block;
 }
 
 .release-date {
+    padding:10px 0;
     display: block;
     font-size: 16px;
     font-family: monospace;
@@ -466,6 +468,7 @@ section { margin: 60px 0; }
 }
 
 .overview-det {
+    padding: 10px;
     display: block;
     font-size: 18px;
     font-family: serif;
