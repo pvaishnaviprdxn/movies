@@ -445,33 +445,38 @@ section { margin: 60px 0; }
 }
 
 .mget-title {
+    text-align: left;
+    display: block;
     color: black;
     font-size: 28px;
     font-weight: bold;
+    font-family: serif;
+}
+
+.getImage img {
+    height: 400px;
     display: block;
 }
 
-.getImage {
-    width: 100%;
-    height: 300px;
+.release-date {
     display: block;
-}
-
-.release-date,
-.overview {
-    display: block;
-    font-size: 24px;
+    font-size: 16px;
+    font-family: monospace;
     font-weight: bold;
 }
 
 .overview-det {
     display: block;
     font-size: 18px;
+    font-family: serif;
 }
+
+.marking { display: block; }
+.marking li { padding:10px; }
 
 .rate-iten {
     text-transform: capitalize;
-    font-size: 22px;
+    font-size: 16px;
     font-weight: bold;
 }
 
@@ -488,6 +493,7 @@ section { margin: 60px 0; }
 }
 
 .user-rating input { display: none; }
+
 .user-rating label {
     justify-content: center;
     align-items: center;
@@ -499,6 +505,7 @@ section { margin: 60px 0; }
     color: #000;
     transition: .5s;
 }
+
 .user-rating label:nth-child(2) { border-right: 0; }
 
 .user-rating input[type="radio"]:hover ~ label,
@@ -512,14 +519,15 @@ section { margin: 60px 0; }
     display:inline-block;
     position: relative;
 }
+
 .heart::before {
+    vertical-align: middle;
+    align-items: self-end;
     content: '\f004';
-    text-indent: 0px;
-    margin-top: 10px;
+    text-indent: 0;
     position: absolute;
-    top: 4px;
     left: 40%;
-    font-size: 38px;
+    font-size: 30px;
     font-family: "Fontawesome";
     color: black;
 }
